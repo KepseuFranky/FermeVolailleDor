@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="597.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.VentesController">
+   <children>
+      <AnchorPane layoutX="-91.0" layoutY="-32.0" prefHeight="61.0" prefWidth="91.0" />
+      <JFXTextField fx:id="idVente" layoutX="118.0" layoutY="17.0" promptText="ID_VENTE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="client_id" layoutX="118.0" layoutY="77.0" promptText="CLIENT_ID" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="bande_id" layoutX="118.0" layoutY="147.0" promptText="BANDE_D" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="dateVente" layoutX="118.0" layoutY="210.0" promptText="DATE_VENTE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="total_prix" layoutX="118.0" layoutY="274.0" promptText="TOTAL_PRIX" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="qte" layoutX="118.0" layoutY="349.0" promptText="QUANTITE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="employe_id" layoutX="118.0" layoutY="414.0" promptText="EMPOLYE_ID" unFocusColor="#1e139a" />
+      <JFXButton layoutX="291.0" layoutY="544.0" onAction="#ajouterVente" style="-fx-border-color: BLACK;" text="AJOUTER" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="root" prefHeight="640.0" prefWidth="832.0" stylesheets="@../../style/Style1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.VenteglobaleController">
+   <children>
+      <BorderPane layoutX="42.0" layoutY="31.0" prefHeight="58.0" prefWidth="89.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="360.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton layoutX="307.0" layoutY="197.0" onAction="#VentesAction" prefHeight="25.0" prefWidth="194.0" style="-fx-border-color: WHITE;" text="VENTES" />
+      <JFXButton layoutX="307.0" layoutY="333.0" onAction="#VentesOeufaction" prefHeight="25.0" prefWidth="194.0" style="-fx-border-color: WHITE;" text="VENTE DES OEUFS" />
+      <JFXButton layoutX="197.0" layoutY="15.0" onAction="#retourVenteGlobale" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: RED; -fx-background-color: WHITE;" text="RETOUR" textFill="#ee1111">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

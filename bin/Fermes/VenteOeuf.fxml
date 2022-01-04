@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="root" prefHeight="640.0" prefWidth="802.0" stylesheets="@../../style/Style1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.VenteOeufController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="360.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
+      <TableView fx:id="tableventeoeuf" layoutY="3.0" prefHeight="414.0" prefWidth="802.0">
+        <columns>
+          <TableColumn fx:id="cidVente" prefWidth="100.0" text="ID_VENTE" />
+          <TableColumn fx:id="ccollect_id" prefWidth="100.0" text="COLLECT_ID" />
+            <TableColumn fx:id="cclient_id" prefWidth="139.0" text="ID_CLIENT" />
+            <TableColumn fx:id="cdateVente" prefWidth="122.0" text="DATE VENTE" />
+            <TableColumn fx:id="ctotal_prix" prefWidth="100.0" text="TOTAL PRIX" />
+            <TableColumn fx:id="cqte" prefWidth="106.0" text="QUANTITE" />
+            <TableColumn fx:id="cemploye_id" prefWidth="132.0" text="ID_EMPLOYE" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="518.0" layoutY="583.0" onAction="#RetourVenteoeuf" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: RED; -fx-background-color: WHITE;" text="RETOUR" textFill="#f80909">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="341.0" layoutY="494.0" onAction="#NewVenteoeufaction" prefHeight="32.0" prefWidth="106.0" style="-fx-border-color: BLACK;" text="NEW">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="515.0" layoutY="494.0" onAction="#supprimer" prefHeight="32.0" prefWidth="106.0" style="-fx-border-color: BLACK;" text="DELETE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

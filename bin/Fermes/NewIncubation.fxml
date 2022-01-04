@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="597.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.IncubationController">
+   <children>
+      <AnchorPane layoutX="-91.0" layoutY="-32.0" prefHeight="61.0" prefWidth="91.0" />
+      <JFXTextField fx:id="idInc" layoutX="118.0" layoutY="17.0" promptText="ID_INCUBATION" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="dateInc" layoutX="118.0" layoutY="147.0" promptText="DATE_INCUBATION" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="ProduirePoussin_id" layoutX="118.0" layoutY="274.0" promptText="PRODUIRE_POUSSIN_ID" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="collect_id" layoutX="118.0" layoutY="414.0" promptText="COLLECT_ID" unFocusColor="#1e139a" />
+      <JFXButton layoutX="291.0" layoutY="544.0" onAction="#ajouterbandeIncubation" style="-fx-border-color: BLACK;" text="AJOUTER" />
+   </children>
+</AnchorPane>

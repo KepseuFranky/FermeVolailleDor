@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="597.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.Bandemaladecontroller">
+   <children>
+      <AnchorPane layoutX="-91.0" layoutY="-32.0" prefHeight="61.0" prefWidth="91.0" />
+      <JFXTextField fx:id="idBandeMalade" layoutX="118.0" layoutY="17.0" promptText="ID_BANDEMALADE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="maladie_id" layoutX="118.0" layoutY="77.0" promptText="MALADIE_ID" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="bande_id" layoutX="118.0" layoutY="147.0" promptText="BANDE_ID" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="qteMalade" layoutX="118.0" layoutY="210.0" promptText="QUANTITE MALADE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="qtePrise" layoutX="118.0" layoutY="274.0" promptText="QUANTITE PRISE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="dateM" layoutX="133.0" layoutY="349.0" promptText="DATE  M" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="totalMort" layoutX="118.0" layoutY="414.0" promptText="TOTAL MORT" unFocusColor="#1e139a" />
+      <JFXButton layoutX="291.0" layoutY="544.0" onAction="#ajouterbandemalade" style="-fx-border-color: BLACK;" text="AJOUTER" />
+   </children>
+</AnchorPane>

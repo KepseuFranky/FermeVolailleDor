@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="root" prefHeight="640.0" prefWidth="832.0" stylesheets="@../../style/Style1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.CreationCompteController">
+   <children>
+      <BorderPane layoutX="42.0" layoutY="31.0" prefHeight="58.0" prefWidth="89.0" />
+      <JFXButton layoutX="205.0" layoutY="29.0" onAction="#Retour" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: RED; -fx-background-color: WHITE;" text="RETOUR" textFill="#f80909">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="305.0" layoutY="172.0" prefHeight="17.0" prefWidth="89.0" text="NOM :" />
+      <Label layoutX="305.0" layoutY="241.0" prefHeight="17.0" prefWidth="89.0" text="PRENOM :" />
+      <Label layoutX="305.0" layoutY="303.0" prefHeight="17.0" prefWidth="123.0" text="NOM D'UTILISATEUR :" />
+      <Label layoutX="305.0" layoutY="369.0" prefHeight="17.0" prefWidth="89.0" text="MOT DE PASSE :" />
+      <Label layoutX="305.0" layoutY="432.0" prefHeight="17.0" prefWidth="200.0" text="CONFIRMATION DE MOT DE PASSE :" />
+      <JFXTextField fx:id="prenomcreation" layoutX="526.0" layoutY="237.0" prefHeight="25.0" prefWidth="246.0" promptText="PRENOM" unFocusColor="#360d90" />
+      <JFXTextField fx:id="Nomcreation" layoutX="526.0" layoutY="156.0" prefHeight="25.0" prefWidth="246.0" promptText="NOM" unFocusColor="#360d90" />
+      <JFXTextField fx:id="Usernamecreation" layoutX="526.0" layoutY="299.0" prefHeight="25.0" prefWidth="246.0" promptText="NOM UTILISATEUR" unFocusColor="#360d90" />
+      <JFXButton layoutX="327.0" layoutY="526.0" onAction="#Creercompte" prefHeight="36.0" prefWidth="304.0" style="-fx-background-color: #B2DFDB; -fx-background-radius: 52px;" text="Créer votre compte" textFill="#8217ff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXPasswordField fx:id="Passwordcreation" layoutX="528.0" layoutY="365.0" prefHeight="25.0" prefWidth="246.0" promptText="PASSWORD" unFocusColor="#1e26c3" />
+      <JFXPasswordField fx:id="confpassword" layoutX="528.0" layoutY="428.0" prefHeight="25.0" prefWidth="246.0" promptText="PASSWORD" unFocusColor="#1e26c3" />
+   </children>
+</AnchorPane>

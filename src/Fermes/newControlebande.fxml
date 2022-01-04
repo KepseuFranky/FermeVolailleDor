@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="597.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.CrontrleBandeController">
+   <children>
+      <AnchorPane layoutX="-91.0" layoutY="-32.0" prefHeight="61.0" prefWidth="91.0" />
+      <JFXTextField fx:id="quantitecontrolebande" layoutX="118.0" layoutY="17.0" promptText="QUANTITE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="Agecontrolebande" layoutX="118.0" layoutY="77.0" promptText="AGE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="Idfournisseurcontrolebande" layoutX="118.0" layoutY="147.0" promptText="IDFOURNISSEUR" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="idbatimentcontrolebande" layoutX="118.0" layoutY="210.0" promptText="IDBATIMENT" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="idracecontrolebande" layoutX="118.0" layoutY="274.0" promptText="IDRACE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="prixachatcontrolebande" layoutX="118.0" layoutY="349.0" promptText="PRIX_ACHAT" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="prixventecontrolebande" layoutX="118.0" layoutY="414.0" promptText="PRIX_VENTE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="Datedemarragecontrolebande" layoutX="118.0" layoutY="475.0" promptText="DATE_DEMARRAGE" unFocusColor="#1e139a" />
+      <JFXButton layoutX="291.0" layoutY="544.0" onAction="#ajoutercontrolebande" style="-fx-border-color: BLACK;" text="AJOUTER" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="597.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.ClientController">
+   <children>
+      <AnchorPane layoutX="-91.0" layoutY="-32.0" prefHeight="61.0" prefWidth="91.0" />
+      <JFXTextField fx:id="idClient" layoutX="118.0" layoutY="43.0" promptText="ID_CLIENT" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="adresse" layoutX="118.0" layoutY="222.0" promptText="ADRESSE" unFocusColor="#1e139a" />
+      <JFXTextField fx:id="tel" layoutX="118.0" layoutY="414.0" promptText="TELEPHONE" unFocusColor="#1e139a" />
+      <JFXButton layoutX="291.0" layoutY="544.0" onAction="#ajouterclient" style="-fx-border-color: BLACK;" text="AJOUTER" />
+   </children>
+</AnchorPane>

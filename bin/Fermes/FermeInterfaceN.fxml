@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="root" prefHeight="640.0" prefWidth="832.0" stylesheets="@../../style/Style1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fermes.LoginControllerr">
+   <children>
+      <BorderPane layoutX="42.0" layoutY="31.0" prefHeight="58.0" prefWidth="89.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="360.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXTextField fx:id="Username" labelFloat="true" layoutX="317.0" layoutY="298.0" prefHeight="44.0" prefWidth="304.0" promptText="USERNAME" style="-fx-background-radius: 52px;" unFocusColor="#3d27cd" />
+      <JFXButton layoutX="317.0" layoutY="516.0" onAction="#login" prefHeight="36.0" prefWidth="304.0" style="-fx-background-color: #B2DFDB; -fx-background-radius: 52px;" text="Sign in" textFill="#8217ff">
+         <font>
+            <Font size="14.0" />
+         </font></JFXButton>
+      <Label alignment="CENTER" layoutX="386.0" layoutY="70.0" prefHeight="160.0" prefWidth="166.0" style="-fx-border-color: WHITE; -fx-border-radius: 52px;" text="WELCOME !" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="Createaccount" layoutX="117.0" layoutY="572.0" onAction="#Creeruncomptepage" prefHeight="36.0" prefWidth="138.0" style="-fx-border-color: white; -fx-border-radius: 52px;" text="Create an account" textFill="WHITE" />
+      <JFXPasswordField fx:id="password" layoutX="319.0" layoutY="393.0" prefHeight="25.0" prefWidth="304.0" promptText="PASSWORD" unFocusColor="#2c1dd7" />
+      <Label fx:id="bienvenue" layoutX="195.0" layoutY="31.0" prefHeight="17.0" prefWidth="36.0" text="Label" />
+   </children>
+</AnchorPane>
